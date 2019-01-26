@@ -31,6 +31,5 @@
                 "PDF": "Barryvdh\\DomPDF\\Facade"
             }
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
