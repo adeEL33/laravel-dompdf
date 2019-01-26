@@ -1,0 +1,36 @@
+{
+    "name": "adeEL33/laravel-dompdf",
+    "description": "A DOMPDF Wrapper for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "dompdf", "pdf"],
+    "authors": [
+        {
+            "name": "Adeel Bajwa",
+            "email": "adeelbajwa786@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "dompdf/dompdf": "^0.8"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Barryvdh\\DomPDF\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.8-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Barryvdh\\DomPDF\\ServiceProvider"
+            ],
+            "aliases": {
+                "PDF": "Barryvdh\\DomPDF\\Facade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
